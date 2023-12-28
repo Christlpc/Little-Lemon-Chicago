@@ -18,4 +18,4 @@ Using hooks:
 - useReducer
 - useFormik
 
-Link: https://kostyngricuk.github.io/capstone/build/
+Link: 
