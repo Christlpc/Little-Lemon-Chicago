@@ -1,0 +1,9 @@
+.footer-column {
+    height: 100%;
+}
+
+.footer-column__title {
+    margin: 0 0 1em;
+    font-size: 20px;
+    text-align: center;
+}

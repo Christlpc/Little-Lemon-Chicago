@@ -1,0 +1,70 @@
+input,
+select {
+  display: block;
+  height: 32px;
+  min-width: 250px;
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 0 1em;
+  color: #fff;
+  outline: none;
+}
+select {
+  background: var(--color-primary-2);
+}
+input::placeholder {
+  color: inherit;
+}
+input + input,
+input + label,
+input + select,
+select + input,
+select + label {
+  display: block;
+  margin-top: 14px;
+}
+label + input,
+label + select {
+  margin-top: 7px;
+}
+input:hover,
+input:focus {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.form-wrap input {
+  width: 100%;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.checkbox input {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  margin-right: 1em;
+}
+form .btn {
+  margin-top: 28px;
+}
+.field-wrap {
+  position: relative;
+}
+.field-wrap + .field-wrap {
+  margin-top: 20px;
+}
+.field-error {
+  color: var(--color-secondary);
+  font-size: 12px;
+  margin: 3px 6px 6px;
+  position: absolute;
+  top: 100%;
+}
+.field-error ~ input {
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}

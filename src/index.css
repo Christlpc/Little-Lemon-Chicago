@@ -1,0 +1,75 @@
+:root {
+  --color-text: #000;
+  --color-primary: #F4CD1E;
+  --color-primary-2: #495E57;
+  --color-secondary: #EE9972;
+  --color-secondary-2: #FBDABB;
+  --color-highlight: #EDEFEE;
+  --color-highlight-2: #333;
+  --border-radius: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla';
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--color-highlight-1);
+}
+a:hover,
+a:focus {
+  color: var(--color-secondary);
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Markazi Text';
+  font-weight: 500;
+}
+h2 {
+  font-size: 64px;
+  font-family: 'Markazi Text';
+  font-weight: 400;
+  color: var(--color-primary-2);
+  margin: 0 0 0.5em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0px 70px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0 100px;
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  h1,
+  h2 {
+    font-size: 51px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 40px 0 60px;
+    margin: 40px 0;
+  }
+}
+
+@import url('./assets/css/buttons.css');
+@import url('./assets/css/forms.css');

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/capstone/build/static/css/main.0592e15e.css",
+    "main.js": "/capstone/build/static/js/main.0f4b2deb.js",
+    "static/js/787.3ecd7fac.chunk.js": "/capstone/build/static/js/787.3ecd7fac.chunk.js",
+    "static/media/restaurant chef B.jpg": "/capstone/build/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek salad.jpg": "/capstone/build/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/capstone/build/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/restaurant.jpg": "/capstone/build/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/bruchetta.jpg": "/capstone/build/static/media/bruchetta.debfe96e1c6b136b4f5f.jpg",
+    "static/media/Logo.svg": "/capstone/build/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/star.svg": "/capstone/build/static/media/star.221f982f1eff159b5cb2549bf6417e2d.svg",
+    "index.html": "/capstone/build/index.html",
+    "static/media/goOrder.svg": "/capstone/build/static/media/goOrder.dd2c439a9cce0e8f507527fe4947506a.svg",
+    "static/media/placeholder-page.svg": "/capstone/build/static/media/placeholder-page.629ac24e9df4da37fa7ec2c3c3ac3a79.svg",
+    "static/media/hamburger.svg": "/capstone/build/static/media/hamburger.0da6f67ced800ab909f63d5144de37ee.svg",
+    "static/media/hamburgerClose.svg": "/capstone/build/static/media/hamburgerClose.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "main.0592e15e.css.map": "/capstone/build/static/css/main.0592e15e.css.map",
+    "main.0f4b2deb.js.map": "/capstone/build/static/js/main.0f4b2deb.js.map",
+    "787.3ecd7fac.chunk.js.map": "/capstone/build/static/js/787.3ecd7fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0592e15e.css",
+    "static/js/main.0f4b2deb.js"
+  ]
+}

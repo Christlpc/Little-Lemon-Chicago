@@ -1,0 +1,7 @@
+.booking-form {
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: -5px 5px 10px 1px var(--color-primary-2);
+    background-color: var(--color-primary-2);
+    color: #fff;
+}

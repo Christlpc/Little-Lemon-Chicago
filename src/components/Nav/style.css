@@ -1,0 +1,64 @@
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-gap: 0.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: var(--color-text);
+    border-bottom: 1px solid transparent;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu ul a:hover,
+.menu ul a:focus {
+    color: var(--color-primary);
+}
+
+.menu ul a.active {
+    border-bottom-color: var(--color-primary);
+}
+
+.menu__title {
+    margin: 0 0 0.5em;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .burger {
+        display: block;
+        z-index: 3;
+        width: 50px;
+        background: transparent;
+        border: none;
+    }
+    .header .menu {
+        display: none;
+    }
+    .header .menu.opened {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+    }
+    .header .menu.opened {
+        grid-auto-flow: row;
+        width: 100%;
+        padding: 80px 25px;
+        text-align: center;
+    }
+    .header .menu ul a {
+        font-size: 22px;
+    }
+}

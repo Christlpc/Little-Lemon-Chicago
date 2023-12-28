@@ -1,0 +1,15 @@
+.booking-wrap {
+    display: grid;
+    grid-template: auto / 2fr 1fr;
+    grid-gap: 60px;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .booking-wrap {
+        grid-template: auto / 1fr;
+    }
+    .booking-form {
+        padding: 20px;
+    }
+}
